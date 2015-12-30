@@ -36,7 +36,7 @@ a:hover {
   text-decoration: overline;
 }
 
-.logo {
+.content {
   position: absolute;
   margin: auto;
   top: 0;
@@ -45,10 +45,65 @@ a:hover {
   left: 0;
   width: 900px;
   height: 400px;
-  background-color: rgba(197, 10, 77, .4);
+  background-color: rgba(197, 10, 77, .7);
   border-radius: 25px;
   font-family: 'Raleway', sans-serif;
+  overflow: scroll;
 }
+
+p {
+  font-size: 20px;
+  padding: 10px 20px 10px 50px;
+  color: black;
+  line-height: 25px;
+}
+
+.album {
+  padding: 20px 50px;
+
+  overflow: auto;
+}
+
+.album img {
+  float: left;
+  display: block;
+}
+
+.album h4 {
+  margin-left: 100px;
+  text-decoration: underline;
+}
+
+.album p {
+  display: inline-block;
+  color: rgba(190, 160, 20, 1);
+  vertical-align: middle;
+}
+
+.artist h4 {
+  text-decoration: underline;
+}
+
+#home {
+  visibility: visible;
+}
+
+#artists {
+  visibility: hidden;
+}
+
+#store {
+  visibility: hidden;
+}
+
+#press {
+  visibility: hidden;
+}
+
+#contact {
+  visibility: hidden;
+}
+
 
 h1 {
   font-size: 160px;
@@ -62,12 +117,55 @@ h2 {
   text-align: right;
 }
 
+h3 {
+  font-size: 55px;
+  margin: 20px 20px 20px 20px;
+  text-align: left;
+  padding: 0 20px 0 20px;
+}
+
+h4 {
+  font-size: 25px;
+  margin: 20px 20px 20px 20px;
+  text-align: left;
+  padding: 0 20px 0 20px;
+  color: black;
+}
+
 footer {
   bottom: 60px;
   right: 60px;
   position: fixed;
   text-align: right;
   width: 100%;
+}
+
+form {
+  margin: 15px;
+  padding: 10px;
+}
+
+input {
+  border: 0;
+  padding: 10px;
+  margin: 10px 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  width: 223px;
+}
+
+textarea {
+  border: 0;
+  padding: 10px;
+  margin: 10px 20px;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+input[type="submit"] {
+  background: rgba(190, 160, 20, 1);
+  color: white;
+  border-radius: 15px;
 }
 
 @media (max-width: 500px) {
