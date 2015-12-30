@@ -86,22 +86,27 @@ p {
 
 #home {
   visibility: visible;
+  display: block;
 }
 
 #artists {
   visibility: hidden;
+  display: none;
 }
 
 #store {
   visibility: hidden;
+  display: none;
 }
 
 #press {
   visibility: hidden;
+  display: none;
 }
 
 #contact {
   visibility: hidden;
+  display: none;
 }
 
 
